@@ -13,6 +13,7 @@ export interface Match {
 
 type MatchCardProps = {
   match: Match;
+  onClick?: () => void;
 };
 
 export default function MatchCard({ match }: MatchCardProps) {
